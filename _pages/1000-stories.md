@@ -2,7 +2,7 @@
 layout: page
 title: 1000 Stories Project
 permalink: /projects/1000-stories/
-description: The Beyond Bars 1000 Stories Project.
+description: 1000 Stories Project | Beyond Bars
 nav: false
 ---
 
@@ -13,4 +13,8 @@ nav: false
 <p class="bb-lede">The people and experiences behind the statistics matter.</p>
 <p>The Beyond Bars 1000 Stories Project documents the lived experiences and knowledge of individuals affected by or involved with youth violence and the justice system. Through storytelling and advocacy, it highlights the people and experiences behind the statistics, centering human perspectives that numerical data alone cannot capture.</p>
 <p class="bb-note">Publication status, participation process, consent and privacy guidance, published stories, and project contact details have not yet been supplied. These details should be confirmed before inviting submissions or publishing personal stories.</p>
+<p class="bb-lede">Lived experience is essential to understanding youth violence and the justice system.</p>
+<p>The 1000 Stories Project documents the experiences and knowledge of people affected by, or involved with, youth violence and the justice system. The project aims to bring perspectives that are often overlooked into wider conversations about justice, safety, and community well-being.</p>
+<h2>What this project explores</h2><ul><li>First-person experiences and community knowledge.</li><li>How people understand the causes and consequences of youth violence.</li><li>Lessons that can inform more thoughtful, human-centered responses.</li></ul>
+<p class="bb-note">Placeholder: add approved participation guidance, consent and privacy information, published stories, and project contact details before inviting submissions.</p>
 </div>
