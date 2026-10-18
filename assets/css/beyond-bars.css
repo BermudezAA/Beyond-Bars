@@ -46,7 +46,19 @@ a {
 
 .bb-hero {
   max-width: 1060px;
-  padding: clamp(3rem, 8vw, 7rem) 0 3rem;
+  padding: clamp(1.25rem, 3vw, 2.5rem) 0 3rem;
+}
+
+/* Give the homepage brand heading a stronger presence and tighten its spacing. */
+body:has(.bb-hero) main > h1:first-child {
+  margin-bottom: 0.35rem;
+  font-size: clamp(2.8rem, 6vw, 4.75rem);
+  line-height: 1;
+}
+
+/* The project page layout supplies its own title; keep detail pages to one title. */
+.bb-project-detail > h1 {
+  display: none;
 }
 
 .bb-eyebrow,
