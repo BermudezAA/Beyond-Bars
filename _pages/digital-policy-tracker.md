@@ -2,7 +2,7 @@
 layout: page
 title: Digital Policy Tracker
 permalink: /projects/digital-policy-tracker/
-description: Digital Policy Tracker | Beyond Bars
+description: The Beyond Bars Digital Policy Tracker.
 nav: false
 ---
 
@@ -10,10 +10,10 @@ nav: false
 
 <div class="bb-project-detail">
 <p class="bb-eyebrow">PROJECT 02 · POLICY RESEARCH</p><h1>Digital Policy Tracker</h1>
-<p class="bb-lede">Make youth justice policy easier to find, follow, and understand.</p>
-<p>The Digital Policy Tracker is planned as a public-facing repository tracking state and federal legislation related to prisons, systemic violence, and youth justice. It is intended to help people move from scattered legislative records to clearer, comparable information.</p>
-<h2>Planned record fields</h2><ul><li>Official bill name and introduction date.</li><li>Sponsors and relevant state or federal jurisdiction.</li><li>Current legislative status.</li><li>Plain-language explanation of potential implications.</li></ul>
-<p>Volunteers collect source information in a structured spreadsheet. The public-facing tracker is a separate tool from this overview page and can be linked here when ready.</p>
+<p class="bb-lede">Make legislative developments easier to follow and understand.</p>
+<p>The Beyond Bars Digital Policy Tracker is a public-facing initiative that monitors legislative developments related to prisons, systemic violence, and youth justice. By organizing information about bills, sponsors, legislative status, and potential implications, it aims to strengthen transparency and make policy developments more accessible to the public.</p>
+<h2>How the work is organized</h2>
+<p>The documented workflow uses Google Sheets for initial data entry and approval. Replit has been identified as the intended platform for website and database development. The tracker is a separate initiative from this main Beyond Bars organization website.</p>
 <div class="bb-team"><strong>Project leadership</strong><br>Adrian A. Bermudez · Mahdi Hamad · Ayesha Afghan</div>
-<p class="bb-note">Placeholder: add the live tracker URL after the application is published and the records and update process are ready for public use.</p>
+<p class="bb-note">Public tracker URL: pending confirmation. No live tracker link has been supplied, so this page does not link to an unverified application.</p>
 </div>
