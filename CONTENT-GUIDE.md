@@ -4,17 +4,17 @@ This guide records the current website structure and the remaining details neede
 
 ## Where to edit
 
-| Page or area | File | Current content / remaining work |
-|---|---|---|
-| Homepage | `_pages/about.md` | Approved mission framing, four project summaries, volunteer reach, LinkedIn link |
-| About and leadership | `_pages/about-us.md` | Mission, founder, and executive roles; individual biographies are pending |
-| Projects directory | `_pages/projects.md` | Overview of all four projects |
-| 1000 Stories Project | `_pages/1000-stories.md` | Approved project description; participation, consent, privacy, and publication details pending |
-| Digital Policy Tracker | `_pages/digital-policy-tracker.md` | Scope and documented workflow; live tracker URL and methodology details pending |
-| Data Visualization | `_pages/data-visualization.md` | Approved description and department leads; approved graphics, sources, and reports pending |
-| Youth Justice Index | `_pages/youth-justice-index.md` | Approved description; indicators, country coverage, sources, and methodology pending |
-| Get Involved | `_pages/get-involved.md` | Contribution areas; volunteer application link pending |
-| Contact | `_pages/contact.md` | Confirmed LinkedIn link; public email or contact form pending |
+| Page or area           | File                               | Current content / remaining work                                                               |
+| ---------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------------- |
+| Homepage               | `_pages/about.md`                  | Approved mission framing, four project summaries, volunteer reach, LinkedIn link               |
+| About and leadership   | `_pages/about-us.md`               | Mission, founder, and executive roles; individual biographies are pending                      |
+| Projects directory     | `_pages/projects.md`               | Overview of all four projects                                                                  |
+| 1000 Stories Project   | `_pages/1000-stories.md`           | Approved project description; participation, consent, privacy, and publication details pending |
+| Digital Policy Tracker | `_pages/digital-policy-tracker.md` | Scope and documented workflow; live tracker URL and methodology details pending                |
+| Data Visualization     | `_pages/data-visualization.md`     | Approved description and department leads; approved graphics, sources, and reports pending     |
+| Youth Justice Index    | `_pages/youth-justice-index.md`    | Approved description; indicators, country coverage, sources, and methodology pending           |
+| Get Involved           | `_pages/get-involved.md`           | Contribution areas; volunteer application link pending                                         |
+| Contact                | `_pages/contact.md`                | Confirmed LinkedIn link; public email or contact form pending                                  |
 
 ## Confirmed organization information
 
