@@ -1,34 +1,55 @@
 ---
-layout: about
-title: about
+layout: page
+title: Beyond Bars
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+description: Addressing youth violence through prevention, policy, and systemic change.
+nav: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<section class="bb-hero">
+  <p class="bb-eyebrow">PREVENTION · POLICY · SYSTEMIC CHANGE</p>
+  <h1>Young people deserve futures beyond the justice system.</h1>
+  <p class="bb-hero-copy">Beyond Bars works to prevent youth violence, center lived experience, and advance community-based solutions that help young people and communities thrive.</p>
+  <div class="bb-actions">
+    <a class="bb-button bb-button-primary" href="{{ '/projects/' | relative_url }}">Explore our projects</a>
+    <a class="bb-button bb-button-secondary" href="{{ '/get-involved/' | relative_url }}">Get involved</a>
+  </div>
+  <p class="bb-reach"><strong>Volunteers in 10+ countries</strong><span>Working toward safer communities and more just systems.</span></p>
+</section>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<section class="bb-section">
+  <div class="bb-section-heading">
+    <p class="bb-eyebrow">OUR APPROACH</p>
+    <h2>Change the conditions. Expand the possibilities.</h2>
+    <p>We challenge the idea that incarceration should be the default response to youth violence. Our work brings together research, storytelling, policy analysis, and youth-centered perspectives to help shape better responses.</p>
+  </div>
+  <div class="bb-pillars">
+    <article><span>01</span><h3>Prevention</h3><p>Support community-based approaches that address harm before it escalates.</p></article>
+    <article><span>02</span><h3>Lived experience</h3><p>Center the knowledge of people and communities affected by youth violence and the justice system.</p></article>
+    <article><span>03</span><h3>Systemic change</h3><p>Use research, education, storytelling, and advocacy to inform policy and practice.</p></article>
+  </div>
+</section>
+
+<section class="bb-section bb-project-section">
+  <div class="bb-section-heading">
+    <p class="bb-eyebrow">OUR WORK</p>
+    <h2>Four projects. A shared purpose.</h2>
+    <p>Each project examines youth justice from a different angle, from lived experience and legislation to comparative data and public understanding.</p>
+  </div>
+  <div class="bb-project-grid">
+    <a class="bb-project-card" href="{{ '/projects/1000-stories/' | relative_url }}"><span class="bb-card-number">01 / STORYTELLING</span><h3>1000 Stories Project</h3><p>Documenting the lived experiences and knowledge of people affected by youth violence and the justice system.</p><span class="bb-card-link">Explore project ↗</span></a>
+    <a class="bb-project-card" href="{{ '/projects/digital-policy-tracker/' | relative_url }}"><span class="bb-card-number">02 / POLICY</span><h3>Digital Policy Tracker</h3><p>Tracking state and federal legislation related to prisons, systemic violence, and youth justice.</p><span class="bb-card-link">Explore project ↗</span></a>
+    <a class="bb-project-card" href="{{ '/projects/data-visualization/' | relative_url }}"><span class="bb-card-number">03 / DATA</span><h3>Data Visualization</h3><p>Turning legislative and social data into accessible graphics that support the organization’s work.</p><span class="bb-card-link">Explore project ↗</span></a>
+    <a class="bb-project-card" href="{{ '/projects/youth-justice-index/' | relative_url }}"><span class="bb-card-number">04 / GLOBAL RESEARCH</span><h3>Youth Justice Index</h3><p>Developing a youth-led, cross-country picture of access to justice, legal systems, and rights.</p><span class="bb-card-link">Explore project ↗</span></a>
+  </div>
+  <a class="bb-text-link" href="{{ '/projects/' | relative_url }}">View all projects →</a>
+</section>
+
+<section class="bb-cta">
+  <p class="bb-eyebrow">BE PART OF THE CHANGE</p>
+  <h2>Better futures are built together.</h2>
+  <p>Bring your skills, perspective, and curiosity to work that puts young people and communities first.</p>
+  <a class="bb-button bb-button-primary" href="{{ '/get-involved/' | relative_url }}">Find a way to contribute</a>
+</section>
