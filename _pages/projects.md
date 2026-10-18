@@ -1,65 +1,19 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Explore Beyond Bars’ four projects advancing youth justice through storytelling, policy research, and data.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+nav_order: 2
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
 
-{% else %}
+<p class="bb-page-intro">Our projects turn a shared commitment to youth justice into practical research, public resources, and stories that can inform change.</p>
 
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+<div class="bb-project-grid bb-project-grid-directory">
+  <a class="bb-project-card" href="{{ '/projects/1000-stories/' | relative_url }}"><span class="bb-card-number">01 / STORYTELLING</span><h2>1000 Stories Project</h2><p>Documenting lived experiences and knowledge from people affected by or involved with youth violence and the justice system.</p><span class="bb-card-link">View project ↗</span></a>
+  <a class="bb-project-card" href="{{ '/projects/digital-policy-tracker/' | relative_url }}"><span class="bb-card-number">02 / POLICY</span><h2>Digital Policy Tracker</h2><p>A public-facing repository of state and federal legislation related to prisons, systemic violence, and youth justice.</p><span class="bb-card-link">View project ↗</span></a>
+  <a class="bb-project-card" href="{{ '/projects/data-visualization/' | relative_url }}"><span class="bb-card-number">03 / DATA</span><h2>Data Visualization</h2><p>Accessible visual summaries of legislative and social data that support Beyond Bars’ cross-project work.</p><span class="bb-card-link">View project ↗</span></a>
+  <a class="bb-project-card" href="{{ '/projects/youth-justice-index/' | relative_url }}"><span class="bb-card-number">04 / GLOBAL RESEARCH</span><h2>Youth Justice Index</h2><p>A youth-led effort to measure and compare access to justice, legal systems, and rights across countries.</p><span class="bb-card-link">View project ↗</span></a>
 </div>
