@@ -273,10 +273,29 @@ body:has(.bb-hero) main > h1:first-child {
 }
 
 .bb-note {
-  padding: 1rem 1.2rem;
+  display: block;
+  position: static;
+  margin-top: 0.55rem;
+  padding: 0.85rem 1rem;
   border: 1px solid var(--bb-line);
   border-radius: 5px;
   color: var(--bb-muted);
+}
+
+/* Keep leadership names and roles above their biography panels. */
+.bb-team strong {
+  display: inline-block;
+  margin-bottom: 0.15rem;
+}
+
+.bb-team p {
+  margin-bottom: 1.5rem;
+}
+
+.bb-team .bb-note {
+  clear: both;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 680px) {
