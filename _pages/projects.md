@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+
 <p class="bb-page-intro">Our projects turn a shared commitment to youth justice into practical research, public resources, and stories that can inform change.</p>
 
 <div class="bb-project-grid bb-project-grid-directory">
