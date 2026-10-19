@@ -16,10 +16,6 @@ nav: false
     <a class="bb-button bb-button-primary" href="{{ '/projects/' | relative_url }}">Explore our projects</a>
     <a class="bb-button bb-button-secondary" href="{{ '/get-involved/' | relative_url }}">Get involved</a>
   </div>
-  <figure class="bb-hero-image">
-    <img src="https://images.unsplash.com/photo-1568266365034-be6f85c74758?q=80&amp;w=1169&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=NHwxMjA3fDA%3D" alt="Homepage visual selected for the Beyond Bars website design test" loading="eager">
-    <figcaption>Photograph by <a href="https://unsplash.com/@fakurian" target="_blank" rel="external noopener">Milad Fakurian</a>, via <a href="https://unsplash.com/" target="_blank" rel="external noopener">Unsplash</a>. Used under the <a href="https://unsplash.com/license" target="_blank" rel="external noopener">Unsplash License</a>.</figcaption>
-  </figure>
   <p class="bb-reach"><strong>Volunteers in more than 10 countries</strong><span>Addressing youth violence through prevention, policy, and systemic change.</span></p>
 </section>
 
