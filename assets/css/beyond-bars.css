@@ -1,12 +1,12 @@
 /* Beyond Bars visual system: editorial, warm, and community-centered */
 :root {
-  --bb-ink: #1e3029;
-  --bb-muted: #5f6b64;
-  --bb-paper: #f8f7f1;
-  --bb-card: #ffffff;
-  --bb-green: #244f3d;
-  --bb-lime: #d7e8a6;
-  --bb-line: #dce2d9;
+  --bb-ink: #1d2d35;
+  --bb-muted: #59676c;
+  --bb-paper: #f5f3ee;
+  --bb-card: #fffefa;
+  --bb-green: #23483f;
+  --bb-lime: #c7b58a;
+  --bb-line: #d8ddd8;
 }
 
 body {
@@ -49,15 +49,16 @@ a {
   padding: clamp(1.25rem, 3vw, 2.5rem) 0 3rem;
 }
 
-/* Give the homepage brand heading a stronger presence and tighten its spacing. */
+/* Make the homepage brand title unmistakable without crowding the navigation. */
+body:has(.bb-hero) .post-title,
 body:has(.bb-hero) main > h1:first-child {
-  max-width: 1100px;
-  margin-top: 0.2rem;
-  margin-bottom: 0.6rem;
-  font-size: clamp(4rem, 9.5vw, 7.5rem);
+  max-width: 1200px;
+  margin-top: 0.15rem;
+  margin-bottom: 0.65rem;
+  font-size: clamp(4.5rem, 11vw, 9rem);
   font-weight: 850;
-  letter-spacing: -0.065em;
-  line-height: 0.92;
+  letter-spacing: -0.07em;
+  line-height: 0.88;
 }
 
 /* Keep the mission statement prominent, without competing with the brand name. */
@@ -312,8 +313,9 @@ body:has(.bb-hero) main > h1:first-child {
     padding: 3rem 0;
   }
 
+  body:has(.bb-hero) .post-title,
   body:has(.bb-hero) main > h1:first-child {
-    font-size: clamp(3.5rem, 14vw, 5rem);
+    font-size: clamp(3.8rem, 14vw, 5.5rem);
   }
 
   .bb-hero > h1 {
@@ -437,3 +439,32 @@ body:has(.bb-hero) main > h1:first-child {
     min-height: 180px;
   }
 }
+
+
+/* Site-wide nonprofit identity: restrained ink, warm paper, and evergreen accents. */
+
+html, body { background: var(--bb-paper); color: var(--bb-ink); }
+
+header, .navbar, #navbar { background-color: var(--bb-paper); border-bottom: 1px solid var(--bb-line); }
+
+footer { background-color: #ebece6; border-top: 1px solid var(--bb-line); }
+
+a { color: var(--bb-green); }
+
+a:hover { color: #142f28; }
+
+#search-toggle kbd, #search-toggle .search-shortcut, #search-toggle .search-key, #search-toggle .search-hint, #search-toggle [data-shortcut], .search-shortcut, .search-button-shortcut { display: none !important; }
+
+#search-toggle { gap: 0.35rem; }
+
+.bb-hero-image img, .bb-editorial-image img { display: block; width: 100%; max-height: 520px; object-fit: cover; border-radius: 5px; }
+
+.bb-editorial-image { margin: 2rem 0 2.5rem; }
+
+.bb-editorial-image img { aspect-ratio: 16 / 8; background: #e8e7e0; }
+
+.bb-editorial-image figcaption { margin-top: 0.6rem; color: var(--bb-muted); font-size: 0.8rem; line-height: 1.5; }
+
+.bb-editorial-image figcaption a { color: var(--bb-green); }
+
+@media (prefers-reduced-motion: reduce) { .bb-project-card { transition: none; } .bb-project-card:hover { transform: none; } }
