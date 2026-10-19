@@ -443,28 +443,81 @@ body:has(.bb-hero) main > h1:first-child {
 
 /* Site-wide nonprofit identity: restrained ink, warm paper, and evergreen accents. */
 
-html, body { background: var(--bb-paper); color: var(--bb-ink); }
+html,
+body {
+  background: var(--bb-paper);
+  color: var(--bb-ink);
+}
 
-header, .navbar, #navbar { background-color: var(--bb-paper); border-bottom: 1px solid var(--bb-line); }
+header,
+.navbar,
+#navbar {
+  background-color: var(--bb-paper);
+  border-bottom: 1px solid var(--bb-line);
+}
 
-footer { background-color: #ebece6; border-top: 1px solid var(--bb-line); }
+footer {
+  background-color: #ebece6;
+  border-top: 1px solid var(--bb-line);
+}
 
-a { color: var(--bb-green); }
+a {
+  color: var(--bb-green);
+}
 
-a:hover { color: #142f28; }
+a:hover {
+  color: #142f28;
+}
 
-#search-toggle kbd, #search-toggle .search-shortcut, #search-toggle .search-key, #search-toggle .search-hint, #search-toggle [data-shortcut], .search-shortcut, .search-button-shortcut { display: none !important; }
+#search-toggle kbd,
+#search-toggle .search-shortcut,
+#search-toggle .search-key,
+#search-toggle .search-hint,
+#search-toggle [data-shortcut],
+.search-shortcut,
+.search-button-shortcut {
+  display: none !important;
+}
 
-#search-toggle { gap: 0.35rem; }
+#search-toggle {
+  gap: 0.35rem;
+}
 
-.bb-hero-image img, .bb-editorial-image img { display: block; width: 100%; max-height: 520px; object-fit: cover; border-radius: 5px; }
+.bb-hero-image img,
+.bb-editorial-image img {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  border-radius: 5px;
+}
 
-.bb-editorial-image { margin: 2rem 0 2.5rem; }
+.bb-editorial-image {
+  margin: 2rem 0 2.5rem;
+}
 
-.bb-editorial-image img { aspect-ratio: 16 / 8; background: #e8e7e0; }
+.bb-editorial-image img {
+  aspect-ratio: 16 / 8;
+  background: #e8e7e0;
+}
 
-.bb-editorial-image figcaption { margin-top: 0.6rem; color: var(--bb-muted); font-size: 0.8rem; line-height: 1.5; }
+.bb-editorial-image figcaption {
+  margin-top: 0.6rem;
+  color: var(--bb-muted);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
 
-.bb-editorial-image figcaption a { color: var(--bb-green); }
+.bb-editorial-image figcaption a {
+  color: var(--bb-green);
+}
 
-@media (prefers-reduced-motion: reduce) { .bb-project-card { transition: none; } .bb-project-card:hover { transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .bb-project-card {
+    transition: none;
+  }
+
+  .bb-project-card:hover {
+    transform: none;
+  }
+}
