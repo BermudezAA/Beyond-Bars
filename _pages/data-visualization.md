@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Data Visualization
+title: ""
 permalink: /projects/data-visualization/
-description: Beyond Bars Data Visuals.
+description: ""
 nav: false
 ---
 
