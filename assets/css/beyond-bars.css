@@ -1,12 +1,12 @@
 /* Beyond Bars visual system: editorial, warm, and community-centered */
 :root {
-  --bb-ink: #1d2d35;
-  --bb-muted: #59676c;
-  --bb-paper: #f5f3ee;
-  --bb-card: #fffefa;
-  --bb-green: #23483f;
-  --bb-lime: #c7b58a;
-  --bb-line: #d8ddd8;
+  --bb-ink: #1e3029;
+  --bb-muted: #5f6b64;
+  --bb-paper: #f8f7f1;
+  --bb-card: #ffffff;
+  --bb-green: #244f3d;
+  --bb-lime: #d7e8a6;
+  --bb-line: #dce2d9;
 }
 
 body {
@@ -46,34 +46,7 @@ a {
 
 .bb-hero {
   max-width: 1060px;
-  padding: clamp(1.25rem, 3vw, 2.5rem) 0 3rem;
-}
-
-/* Make the homepage brand title unmistakable without crowding the navigation. */
-body:has(.bb-hero) .post-title,
-body:has(.bb-hero) main > h1:first-child {
-  max-width: 1200px;
-  margin-top: 0.15rem;
-  margin-bottom: 0.65rem;
-  font-size: clamp(4.5rem, 11vw, 9rem);
-  font-weight: 850;
-  letter-spacing: -0.07em;
-  line-height: 0.88;
-}
-
-/* Keep the mission statement prominent, without competing with the brand name. */
-.bb-hero > h1 {
-  max-width: 850px;
-  margin-top: 1.1rem;
-  font-size: clamp(1.65rem, 3.2vw, 2.65rem);
-  font-weight: 700;
-  letter-spacing: -0.04em;
-  line-height: 1.12;
-}
-
-/* The project page layout supplies its own title; keep detail pages to one title. */
-.bb-project-detail > h1 {
-  display: none;
+  padding: clamp(3rem, 8vw, 7rem) 0 3rem;
 }
 
 .bb-eyebrow,
@@ -137,20 +110,7 @@ body:has(.bb-hero) main > h1:first-child {
 
 .bb-section {
   padding: 4.5rem 0;
-  border-top: 2px solid #b9c7bb;
-}
-
-/* Use a clearer visual break between major homepage sections. */
-.bb-section-heading {
-  padding-top: 0.15rem;
-}
-
-.bb-project-section {
-  margin-top: 0.5rem;
-}
-
-.bb-cta {
-  border-top: 3px solid var(--bb-green);
+  border-top: 1px solid var(--bb-line);
 }
 
 .bb-section-heading {
@@ -274,29 +234,10 @@ body:has(.bb-hero) main > h1:first-child {
 }
 
 .bb-note {
-  display: block;
-  position: static;
-  margin-top: 0.55rem;
-  padding: 0.85rem 1rem;
+  padding: 1rem 1.2rem;
   border: 1px solid var(--bb-line);
   border-radius: 5px;
   color: var(--bb-muted);
-}
-
-/* Keep leadership names and roles above their biography panels. */
-.bb-team strong {
-  display: inline-block;
-  margin-bottom: 0.15rem;
-}
-
-.bb-team p {
-  margin-bottom: 1.5rem;
-}
-
-.bb-team .bb-note {
-  clear: both;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 @media (max-width: 680px) {
@@ -311,230 +252,5 @@ body:has(.bb-hero) main > h1:first-child {
 
   .bb-section {
     padding: 3rem 0;
-  }
-
-  body:has(.bb-hero) .post-title,
-  body:has(.bb-hero) main > h1:first-child {
-    font-size: clamp(3.8rem, 14vw, 5.5rem);
-  }
-
-  .bb-hero > h1 {
-    font-size: clamp(1.55rem, 6vw, 2rem);
-  }
-}
-
-/* --- Human-centered visual storytelling --- */
-.bb-hero-image {
-  margin: 2.2rem 0 1.4rem;
-}
-
-.bb-hero-image img {
-  display: block;
-  width: 100%;
-  max-height: 480px;
-  aspect-ratio: 16 / 8.5;
-  object-fit: cover;
-  border-radius: 8px;
-  background: #e8ece5;
-}
-
-.bb-hero-image figcaption {
-  margin-top: 0.65rem;
-  color: var(--bb-muted);
-  font-size: 0.78rem;
-  line-height: 1.5;
-}
-
-.bb-hero-image figcaption a {
-  color: var(--bb-green);
-}
-
-.bb-about-community {
-  margin: 3rem 0;
-  padding: clamp(1.5rem, 4vw, 3rem);
-  border-left: 5px solid var(--bb-green);
-  background: #e9efdf;
-}
-
-.bb-about-community h2 {
-  max-width: 700px;
-  margin-top: 0.5rem;
-}
-
-.bb-team-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0 2.5rem;
-}
-
-.bb-team-grid-founder {
-  grid-template-columns: minmax(0, 1fr);
-}
-
-.bb-team-grid-founder .bb-person-card {
-  max-width: 720px;
-}
-
-.bb-person-card {
-  display: grid;
-  grid-template-columns: minmax(125px, 0.75fr) minmax(0, 1.25fr);
-  align-items: stretch;
-  overflow: hidden;
-  border: 1px solid var(--bb-line);
-  border-radius: 8px;
-  background: var(--bb-card);
-}
-
-.bb-person-portrait {
-  display: flex;
-  min-height: 205px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.45rem;
-  padding: 1rem 0.5rem;
-  text-align: center;
-}
-
-.bb-portrait-pending {
-  color: #f8f7f1;
-  background: linear-gradient(145deg, #244f3d 0%, #56745e 55%, #b5c7a2 100%);
-}
-
-.bb-portrait-pending span {
-  display: grid;
-  width: 66px;
-  height: 66px;
-  place-items: center;
-  border: 1px solid rgb(255 255 255 / 60%);
-  border-radius: 50%;
-  background: rgb(255 255 255 / 10%);
-  font-size: 1.1rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-}
-
-.bb-portrait-pending small {
-  max-width: 100px;
-  font-size: 0.7rem;
-  line-height: 1.3;
-}
-
-.bb-person-copy {
-  padding: 1.15rem;
-}
-
-.bb-person-copy h3 {
-  margin: 0 0 0.3rem;
-  font-size: 1.25rem;
-  line-height: 1.2;
-}
-
-.bb-person-role {
-  margin: 0 0 0.9rem;
-  color: var(--bb-green);
-  font-size: 0.9rem;
-  font-weight: 700;
-  line-height: 1.45;
-}
-
-.bb-person-copy .bb-note {
-  margin-top: 0.75rem;
-  padding: 0.7rem;
-  font-size: 0.84rem;
-  line-height: 1.45;
-}
-
-@media (max-width: 680px) {
-  .bb-team-grid {
-    grid-template-columns: 1fr;
-  }
-  .bb-person-card {
-    grid-template-columns: minmax(105px, 0.7fr) minmax(0, 1.3fr);
-  }
-  .bb-person-portrait {
-    min-height: 180px;
-  }
-}
-
-/* Site-wide nonprofit identity: restrained ink, warm paper, and evergreen accents. */
-
-html,
-body {
-  background: var(--bb-paper);
-  color: var(--bb-ink);
-}
-
-header,
-.navbar,
-#navbar {
-  background-color: var(--bb-paper);
-  border-bottom: 1px solid var(--bb-line);
-}
-
-footer {
-  background-color: #ebece6;
-  border-top: 1px solid var(--bb-line);
-}
-
-a {
-  color: var(--bb-green);
-}
-
-a:hover {
-  color: #142f28;
-}
-
-#search-toggle kbd,
-#search-toggle .search-shortcut,
-#search-toggle .search-key,
-#search-toggle .search-hint,
-#search-toggle [data-shortcut],
-.search-shortcut,
-.search-button-shortcut {
-  display: none !important;
-}
-
-#search-toggle {
-  gap: 0.35rem;
-}
-
-.bb-hero-image img,
-.bb-editorial-image img {
-  display: block;
-  width: 100%;
-  max-height: 520px;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.bb-editorial-image {
-  margin: 2rem 0 2.5rem;
-}
-
-.bb-editorial-image img {
-  aspect-ratio: 16 / 8;
-  background: #e8e7e0;
-}
-
-.bb-editorial-image figcaption {
-  margin-top: 0.6rem;
-  color: var(--bb-muted);
-  font-size: 0.8rem;
-  line-height: 1.5;
-}
-
-.bb-editorial-image figcaption a {
-  color: var(--bb-green);
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .bb-project-card {
-    transition: none;
-  }
-
-  .bb-project-card:hover {
-    transform: none;
   }
 }
