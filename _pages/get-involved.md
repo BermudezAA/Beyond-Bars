@@ -7,6 +7,8 @@ nav: true
 nav_order: 3
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+
 <div class="bb-project-detail">
 <p class="bb-eyebrow">GET INVOLVED</p><h1>Bring your skills to work that matters.</h1>
 <p class="bb-lede">Beyond Bars brings together volunteers working in more than 10 countries to address youth violence through prevention, policy, and systemic change.</p>
