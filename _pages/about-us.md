@@ -7,8 +7,6 @@ nav: true
 nav_order: 1
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
-
 <div class="bb-project-detail bb-about-page">
 <p class="bb-eyebrow">ABOUT BEYOND BARS</p>
 <h1>Justice should create pathways forward.</h1>
