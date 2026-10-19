@@ -7,6 +7,8 @@ nav: true
 nav_order: 4
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+
 <div class="bb-project-detail">
 <p class="bb-eyebrow">CONTACT</p><h1>Start a conversation.</h1>
 <p class="bb-lede">Interested in our projects, collaboration, or supporting youth-centered approaches to justice?</p>
