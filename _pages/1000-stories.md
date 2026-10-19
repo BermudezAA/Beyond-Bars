@@ -6,6 +6,8 @@ description: 1000 Stories Project | Beyond Bars
 nav: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+
 <div class="bb-project-detail">
 <p class="bb-eyebrow">PROJECT 01 · STORYTELLING</p>
 <p class="bb-lede">The people and experiences behind the statistics matter.</p>
