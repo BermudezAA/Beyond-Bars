@@ -9,7 +9,7 @@ nav: false
 <link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
 
 <div class="bb-project-detail">
-<p class="bb-eyebrow">PROJECT 02 · POLICY RESEARCH</p>
+<p class="bb-eyebrow">PROJECT 02 · POLICY RESEARCH</p><h1>Digital Policy Tracker</h1>
 <p class="bb-lede">Make legislative developments easier to follow and understand.</p>
 <figure class="bb-editorial-image">
   <img src="https://images.unsplash.com/photo-1589216532372-1c2a367900d9?q=80&amp;w=1171&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=NHwxMjA3fDA%3D" alt="A wooden judge’s gavel against a dark background" loading="lazy">
