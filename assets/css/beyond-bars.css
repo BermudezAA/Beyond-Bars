@@ -255,6 +255,44 @@ a {
   }
 }
 
+/* Homepage image and reach statement placement. */
+.bb-home-image {
+  max-width: 900px;
+  height: clamp(3.75rem, 8vw, 6rem);
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.bb-home-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 54%;
+}
+
+.bb-hero {
+  padding-top: clamp(1.2rem, 2.5vw, 2rem);
+}
+
+.bb-reach-inline {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  margin: 1.75rem 0 2rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--bb-line);
+}
+
+.bb-reach-inline strong {
+  flex-shrink: 0;
+}
+
+.bb-reach-inline span {
+  text-align: right;
+}
+
 /* Careful layout refinements: retain the original palette and visual identity. */
 /* The site masthead title should lead; its description and the homepage content
    should support it rather than compete with it. */
@@ -400,7 +438,17 @@ a {
   }
 
   .bb-hero {
-    padding: 2rem 0 2rem;
+    padding: 1.2rem 0 2rem;
+  }
+
+  .bb-reach-inline {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+
+  .bb-reach-inline span {
+    text-align: left;
   }
 
   .bb-hero h1 {
