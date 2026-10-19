@@ -8,6 +8,14 @@ nav: false
 
 <link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
 
+<figure class="bb-home-image">
+  <img
+    src="https://images.unsplash.com/photo-1609942270679-60396760ee7d?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+    alt="A person's hand resting on a brown metal frame"
+    loading="eager"
+  >
+</figure>
+
 <section class="bb-hero">
   <p class="bb-eyebrow">PREVENTION · POLICY · SYSTEMIC CHANGE</p>
   <h1>Young people deserve futures beyond the justice system.</h1>
@@ -16,7 +24,10 @@ nav: false
     <a class="bb-button bb-button-primary" href="{{ '/projects/' | relative_url }}">Explore our projects</a>
     <a class="bb-button bb-button-secondary" href="{{ '/get-involved/' | relative_url }}">Get involved</a>
   </div>
-  <p class="bb-reach"><strong>Volunteers in more than 10 countries</strong><span>Addressing youth violence through prevention, policy, and systemic change.</span></p>
+  <figure class="bb-hero-image">
+    <img src="https://images.unsplash.com/photo-1568266365034-be6f85c74758?q=80&amp;w=1169&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=NHwxMjA3fDA%3D" alt="Homepage visual selected for the Beyond Bars website design test" loading="eager">
+    <figcaption>Photograph by <a href="https://unsplash.com/@fakurian" target="_blank" rel="external noopener">Milad Fakurian</a>, via <a href="https://unsplash.com/" target="_blank" rel="external noopener">Unsplash</a>. Used under the <a href="https://unsplash.com/license" target="_blank" rel="external noopener">Unsplash License</a>.</figcaption>
+  </figure>
 </section>
 
 <section class="bb-section">
@@ -24,6 +35,10 @@ nav: false
     <p class="bb-eyebrow">OUR MISSION</p>
     <h2>Prevention, accountability, and community-based solutions.</h2>
     <p>Through storytelling, education, and advocacy, we seek to influence culture, policy, and practice. Our work centers lived experience and challenges the idea that incarceration should be the default response to youth violence.</p>
+  </div>
+  <div class="bb-reach bb-reach-inline">
+    <strong>Volunteers in more than 10 countries</strong>
+    <span>Addressing youth violence through prevention, policy, and systemic change.</span>
   </div>
   <div class="bb-pillars">
     <article><span>01</span><h3>Prevention</h3><p>Promote approaches that help keep young people out of prison.</p></article>
@@ -50,7 +65,7 @@ nav: false
 <section class="bb-cta">
   <p class="bb-eyebrow">BE PART OF THE WORK</p>
   <h2>Help build pathways beyond the justice system.</h2>
-  <p>Beyond Bars brings together volunteers working across more than 10 countries. Learn about the projects and find a way to contribute.</p>
+  <p>Learn about the projects and find a way to contribute.</p>
   <a class="bb-button bb-button-primary" href="{{ '/get-involved/' | relative_url }}">Find a way to contribute</a>
 </section>
 
