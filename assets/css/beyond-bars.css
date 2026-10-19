@@ -327,6 +327,7 @@ body:has(.bb-hero) main > h1:first-child {
 .bb-hero-image {
   margin: 2.2rem 0 1.4rem;
 }
+
 .bb-hero-image img {
   display: block;
   width: 100%;
@@ -336,37 +337,45 @@ body:has(.bb-hero) main > h1:first-child {
   border-radius: 8px;
   background: #e8ece5;
 }
+
 .bb-hero-image figcaption {
   margin-top: 0.65rem;
   color: var(--bb-muted);
   font-size: 0.78rem;
   line-height: 1.5;
 }
+
 .bb-hero-image figcaption a {
   color: var(--bb-green);
 }
+
 .bb-about-community {
   margin: 3rem 0;
   padding: clamp(1.5rem, 4vw, 3rem);
   border-left: 5px solid var(--bb-green);
   background: #e9efdf;
 }
+
 .bb-about-community h2 {
   max-width: 700px;
   margin-top: 0.5rem;
 }
+
 .bb-team-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1.25rem;
   margin: 1.5rem 0 2.5rem;
 }
+
 .bb-team-grid-founder {
   grid-template-columns: minmax(0, 1fr);
 }
+
 .bb-team-grid-founder .bb-person-card {
   max-width: 720px;
 }
+
 .bb-person-card {
   display: grid;
   grid-template-columns: minmax(125px, 0.75fr) minmax(0, 1.25fr);
@@ -376,6 +385,7 @@ body:has(.bb-hero) main > h1:first-child {
   border-radius: 8px;
   background: var(--bb-card);
 }
+
 .bb-person-portrait {
   display: flex;
   min-height: 205px;
@@ -386,10 +396,12 @@ body:has(.bb-hero) main > h1:first-child {
   padding: 1rem 0.5rem;
   text-align: center;
 }
+
 .bb-portrait-pending {
   color: #f8f7f1;
   background: linear-gradient(145deg, #244f3d 0%, #56745e 55%, #b5c7a2 100%);
 }
+
 .bb-portrait-pending span {
   display: grid;
   width: 66px;
@@ -402,19 +414,23 @@ body:has(.bb-hero) main > h1:first-child {
   font-weight: 800;
   letter-spacing: 0.05em;
 }
+
 .bb-portrait-pending small {
   max-width: 100px;
   font-size: 0.7rem;
   line-height: 1.3;
 }
+
 .bb-person-copy {
   padding: 1.15rem;
 }
+
 .bb-person-copy h3 {
   margin: 0 0 0.3rem;
   font-size: 1.25rem;
   line-height: 1.2;
 }
+
 .bb-person-role {
   margin: 0 0 0.9rem;
   color: var(--bb-green);
@@ -422,12 +438,14 @@ body:has(.bb-hero) main > h1:first-child {
   font-weight: 700;
   line-height: 1.45;
 }
+
 .bb-person-copy .bb-note {
   margin-top: 0.75rem;
   padding: 0.7rem;
   font-size: 0.84rem;
   line-height: 1.45;
 }
+
 @media (max-width: 680px) {
   .bb-team-grid {
     grid-template-columns: 1fr;
