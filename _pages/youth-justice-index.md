@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Youth Justice Index
+title: ""
 permalink: /projects/youth-justice-index/
-description: The Beyond Bars Youth Justice Index.
+description: ""
 nav: false
 ---
 
