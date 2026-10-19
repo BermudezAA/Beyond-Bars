@@ -6,6 +6,8 @@ description: Beyond Bars Data Visuals.
 nav: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+
 <div class="bb-project-detail">
 <p class="bb-eyebrow">PROJECT 03 · DATA COMMUNICATION</p>
 <p class="bb-lede">Make patterns of violence and systemic trends visible.</p>
