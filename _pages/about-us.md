@@ -28,11 +28,24 @@ nav_order: 1
 
 <h2>Organizational leadership</h2>
 <div class="bb-team">
-  <p><strong>Adrian Bermudez</strong><br>Executive Volunteer Coordinator<br><span class="bb-note">Biography pending confirmation.</span></p>
-  <p><strong>Daniela Garcia Tovar</strong><br>Research Executive<br><span class="bb-note">Biography pending confirmation.</span></p>
-  <p><strong>Moma Kendra-Keliah</strong><br>Social Media Executive<br><span class="bb-note">Biography pending confirmation.</span></p>
-  <p><strong>Mahdi Hamad</strong><br>Social Media Executive<br><span class="bb-note">Biography pending confirmation.</span></p>
-  <p><strong>Anika Pulakurthi</strong><br>Initiative Executive<br><span class="bb-note">Biography pending confirmation.</span></p>
+  <strong>Adrian Bermudez</strong><br>Executive Volunteer Coordinator
+  <span class="bb-note">Biography pending confirmation.</span>
+</div>
+<div class="bb-team">
+  <strong>Daniela Garcia Tovar</strong><br>Research Executive
+  <span class="bb-note">Biography pending confirmation.</span>
+</div>
+<div class="bb-team">
+  <strong>Moma Kendra-Keliah</strong><br>Social Media Executive
+  <span class="bb-note">Biography pending confirmation.</span>
+</div>
+<div class="bb-team">
+  <strong>Mahdi Hamad</strong><br>Social Media Executive
+  <span class="bb-note">Biography pending confirmation.</span>
+</div>
+<div class="bb-team">
+  <strong>Anika Pulakurthi</strong><br>Initiative Executive
+  <span class="bb-note">Biography pending confirmation.</span>
 </div>
 <p class="bb-note">Leadership names and roles are displayed as supplied. Add biographies after each individual approves the final public wording.</p>
 </div>
