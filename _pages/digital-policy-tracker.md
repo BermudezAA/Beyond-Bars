@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Digital Policy Tracker
+title: ""
 permalink: /projects/digital-policy-tracker/
-description: The Beyond Bars Digital Policy Tracker.
+description: ""
 nav: false
 ---
 
