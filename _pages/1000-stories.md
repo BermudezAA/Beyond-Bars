@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 1000 Stories Project
+title: ""
 permalink: /projects/1000-stories/
-description: 1000 Stories Project | Beyond Bars
+description: ""
 nav: false
 ---
 
