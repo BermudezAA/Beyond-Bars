@@ -6,6 +6,8 @@ description: Addressing youth violence through prevention, policy, and systemic 
 nav: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+
 <section class="bb-hero">
   <p class="bb-eyebrow">PREVENTION · POLICY · SYSTEMIC CHANGE</p>
   <h1>Young people deserve futures beyond the justice system.</h1>
