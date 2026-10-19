@@ -6,8 +6,6 @@ description: The Beyond Bars Youth Justice Index.
 nav: false
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
-
 <div class="bb-project-detail">
 <p class="bb-eyebrow">PROJECT 04 · GLOBAL RESEARCH</p>
 <p class="bb-lede">Assess young people's access to justice, legal systems, and rights worldwide.</p>
