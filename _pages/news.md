@@ -12,7 +12,9 @@ nav_order: 5
 <div class="bb-project-detail">
 <p class="bb-eyebrow">NEWS & UPDATES</p>
 <h1>News and updates</h1>
-<p class="bb-lede">Announcements and publications will appear here when approved for public release.</p>
-<p>No approved news articles, announcements, publication dates, or organizational impact reports have been supplied for publication yet.</p>
-<p class="bb-note">This page is a structural placeholder. Add only verified updates with approved wording, dates, and links.</p>
+<p class="bb-lede">Follow Beyond Bars' latest updates and monthly Justice Spotlight.</p>
+<h2>Monthly Justice Spotlight</h2>
+<p>Beyond Bars shares a monthly Justice Spotlight on LinkedIn. Visit our company page to read the latest spotlight and follow future editions.</p>
+<p><a class="bb-button bb-button-primary" href="https://www.linkedin.com/company/beyond-bars/" rel="external noopener" target="_blank">Read the Justice Spotlight on LinkedIn ↗</a></p>
+<p>For additional announcements and organizational updates, follow Beyond Bars on <a href="https://www.linkedin.com/company/beyond-bars/" rel="external noopener" target="_blank">LinkedIn</a> and <a href="https://www.instagram.com/beyondbarss/" rel="external noopener" target="_blank">Instagram</a>.</p>
 </div>
