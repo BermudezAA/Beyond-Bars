@@ -17,7 +17,7 @@ nav: false
   <figcaption>Photograph by <a href="https://unsplash.com/@chuttersnap" target="_blank" rel="external noopener">CHUTTERSNAP</a>, via <a href="https://unsplash.com/" target="_blank" rel="external noopener">Unsplash</a>. Free to use under the <a href="https://unsplash.com/license" target="_blank" rel="external noopener">Unsplash License</a>.</figcaption>
 </figure>
 
-<p>The Beyond Bars 1000 Stories Project has a clear goal: collect 1,000 stories from people whose lives, communities, or work intersect with youth violence and the justice system. Statistics can show the scale of a problem. Stories help us understand the people, circumstances, and experiences behind those numbers.</p>
+<p>The Beyond Bars 1000 Stories Project has a clear goal: collect 1,000 stories from people affected by youth violence and the justice system, as well as people who work alongside young people, families, and communities. Statistics can show the scale of a problem. Stories help us understand the people, circumstances, and experiences behind those numbers.</p>
 <p>There is no perfect story, and there is no single experience that defines this issue. A story does not need to be extraordinary, polished, or complete to matter. The project is intended to make room for honest perspectives, including experiences that are often overlooked or left out of public conversations.</p>
 
 <h2>Who can contribute</h2>
