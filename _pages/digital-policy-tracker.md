@@ -22,14 +22,14 @@ nav: false
 
 <h2>Explore the working tracker</h2>
 <p>The spreadsheet below is the current working version. A public-facing version will replace it when it is ready.</p>
-<div class="bb-team">
+<div style="width: 100%; margin: 1.25rem 0; overflow: hidden;">
   <iframe
     src="https://docs.google.com/spreadsheets/d/11AvV27INh538HjJ_A6isxkXeC1wiyjLG/preview"
     title="Beyond Bars Digital Policy Tracker working Google Sheet"
     width="100%"
     height="640"
     loading="lazy"
-    style="border: 0; max-width: 100%;"
+    style="display: block; width: 100%; max-width: 100%; border: 1px solid var(--bb-line); border-radius: 5px;"
   ></iframe>
 </div>
 <p><a class="bb-button bb-button-primary" href="https://docs.google.com/spreadsheets/d/11AvV27INh538HjJ_A6isxkXeC1wiyjLG/edit?usp=sharing&amp;ouid=107025319751984533544&amp;rtpof=true&amp;sd=true" rel="external noopener" target="_blank">Open the Digital Policy Tracker in Google Sheets ↗</a></p>
