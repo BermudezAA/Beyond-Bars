@@ -13,5 +13,5 @@ nav: false
 <p class="bb-lede">Make patterns of violence and systemic trends visible.</p>
 <p>Beyond Bars Data Visuals is a collaborative, technology-driven initiative that aggregates, analyzes, and maps data to support youth violence prevention and the more effective allocation of community intervention resources. Its global perspective aims to make patterns of violence and systemic trends visible through accessible visual representations.</p>
 <div class="bb-team"><strong>Department leadership</strong><br>Adrian A. Bermudez · Ayesha Afghan</div>
-<p class="bb-note">Approved graphics, reports, methods, data sources, and publication links have not yet been supplied.</p>
+<p>For each visualization released to the public, Beyond Bars will identify the data source and explain the context behind the figures. The aim is to help readers understand what a chart or map shows, why the pattern matters, and what conclusions the available data can support.</p>
 </div>
