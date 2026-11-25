@@ -27,8 +27,7 @@ nav_order: 1
 <h2>Founder</h2>
 <div class="bb-team">
   <strong>Ayesha Afghan</strong><br>
-  Founder<br>
-  <span class="bb-note">Biography pending confirmation.</span>
+  Founder
 </div>
 
 <h2>Organizational leadership</h2>
@@ -44,13 +43,11 @@ nav_order: 1
 </div>
 <div class="bb-team">
   <strong>Moma Kendra-Keliah</strong><br>
-  Social Media Executive<br>
-  <span class="bb-note">Biography pending confirmation.</span>
+  Social Media Executive
 </div>
 <div class="bb-team">
   <strong>Mahdi Hamad</strong><br>
-  Social Media Executive<br>
-  <span class="bb-note">Biography pending confirmation.</span>
+  Social Media Executive
 </div>
-<p class="bb-note">Leadership names and roles are displayed as supplied. Additional biographies will be added after each individual approves the final public wording.</p>
+<p class="bb-note">Additional leadership biographies will be added as they are provided and approved for publication.</p>
 </div>
