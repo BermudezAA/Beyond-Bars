@@ -70,5 +70,5 @@ nav: false
 </section>
 
 <section class="bb-section">
-  <p><a href="https://www.linkedin.com/company/beyond-bars/" rel="external noopener" target="_blank">Follow Beyond Bars on LinkedIn ↗</a></p>
+  <p>Follow Beyond Bars: <a href="https://www.linkedin.com/company/beyond-bars/" rel="external noopener" target="_blank">LinkedIn ↗</a> · <a href="https://www.instagram.com/beyondbarss/" rel="external noopener" target="_blank">Instagram (@beyondbarss) ↗</a></p>
 </section>
