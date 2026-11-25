@@ -7,6 +7,7 @@ nav: false
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+<script src="{{ '/assets/js/beyond-bars-motion.js' | relative_url }}" defer></script>
 
 <div class="bb-project-detail">
 <p class="bb-eyebrow">PROJECT 03 · DATA COMMUNICATION</p><h1>Beyond Bars Data Visuals</h1>
