@@ -35,7 +35,7 @@ nav: false
 
 <h2>Privacy, consent, and care</h2>
 <p>Contributors may choose to remain anonymous. Stories about youth violence and the justice system can involve deeply personal experiences, and they should be handled with care. Beyond Bars is developing the participation and consent process, including clear information about how identifying details and stories may be collected, used, and shared.</p>
-<p>No story will be published on this website without the contributor's permission. The project will explain its privacy and consent procedures before it begins accepting submissions.</p>
+<p>No story will be published on this website without the contributor's permission. The project will explain its privacy and consent procedures, including additional safeguards for contributors under 18, before it begins accepting submissions.</p>
 
 <h2>Working toward 1,000 stories</h2>
 <p>The submission form and participation process are still in development. Submissions are not yet open, and no stories have been published here. This page will be updated with instructions and relevant safeguards once the process is ready.</p>
