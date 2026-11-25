@@ -7,6 +7,7 @@ nav: false
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+<script src="{{ '/assets/js/beyond-bars-motion.js' | relative_url }}" defer></script>
 
 <figure class="bb-home-image">
   <img
