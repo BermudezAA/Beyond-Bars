@@ -8,6 +8,7 @@ nav_order: 2
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/beyond-bars.css' | relative_url }}">
+<script src="{{ '/assets/js/beyond-bars-motion.js' | relative_url }}" defer></script>
 
 <p class="bb-page-intro">Beyond Bars addresses youth violence through prevention, policy, and systemic change. These four initiatives support that work through storytelling, legislative tracking, data visualization, and youth-led research.</p>
 
