@@ -567,11 +567,11 @@ a {
 /* A quieter version of the supplied wave tile gives the paper a little life. */
 body {
   background-color: var(--bb-paper);
-  background-image:
-    url("../img/beyond-bars-wave.svg"),
-    radial-gradient(ellipse at 12% 0%, rgb(215 232 166 / 20%), transparent 34rem);
+  background-image: url("../img/beyond-bars-wave.svg"), radial-gradient(ellipse at 12% 0%, rgb(215 232 166 / 20%), transparent 34rem);
   background-repeat: repeat, no-repeat;
-  background-size: 290px 145px, 100% 38rem;
+  background-size:
+    290px 145px,
+    100% 38rem;
   color: var(--bb-ink);
 }
 
